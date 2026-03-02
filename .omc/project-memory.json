@@ -1,0 +1,136 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1772105567825,
+  "projectRoot": "/home/dan/Coding/freeagent-mcp",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": ">=18.0.0",
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": "Node.js 18.0.0"
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run dev",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js",
+      "dev": "tsx src/index.ts"
+    }
+  },
+  "conventions": {
+    "namingStyle": "camelCase/PascalCase",
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 6,
+      "lastAccessed": 1772105567810,
+      "keyFiles": [
+        "client.d.ts",
+        "client.js",
+        "client.js.map",
+        "index.d.ts",
+        "index.js"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 2,
+      "lastAccessed": 1772105567811,
+      "keyFiles": [
+        "client.ts",
+        "index.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "oauth.mjs",
+      "accessCount": 6,
+      "lastAccessed": 1772106362663,
+      "type": "file"
+    },
+    {
+      "path": ".env",
+      "accessCount": 4,
+      "lastAccessed": 1772106419406,
+      "type": "file"
+    },
+    {
+      "path": "src/index.ts",
+      "accessCount": 3,
+      "lastAccessed": 1772105915071,
+      "type": "file"
+    },
+    {
+      "path": "src/client.ts",
+      "accessCount": 2,
+      "lastAccessed": 1772105963089,
+      "type": "file"
+    },
+    {
+      "path": "src/tools/invoices.ts",
+      "accessCount": 2,
+      "lastAccessed": 1772107705003,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1772105592676,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1772105593201,
+      "type": "directory"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1772105636507,
+      "type": "file"
+    },
+    {
+      "path": "src/tools",
+      "accessCount": 1,
+      "lastAccessed": 1772107701128,
+      "type": "directory"
+    }
+  ],
+  "userDirectives": []
+}
